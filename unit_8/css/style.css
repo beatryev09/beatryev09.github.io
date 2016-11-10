@@ -1,0 +1,320 @@
+/*@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro);
+
+ to pull the local fonts copy link from github after uploading and then font face rule from w3 schools. */
+/* 
+@font-face {
+    font-family: Benton Sans
+    src: url(beatryev09.github.io/unit_6/fonts/Benton Sans/); I don' think this is right
+}
+
+@font-face {
+    font-family: Benton Sans
+    src: url(beatryev09.github.io/unit_6/fonts/New Century Schoolbook Complete Family Pack/);
+}*/
+* { margin:0; padding:0; box-sizing:border-box;}
+body {
+	background-color:#FFFFFF;
+}
+
+nav { 
+	background-color: #B089BC;
+	padding:20px 5%;
+	font-color:#FFFFFF;
+
+
+}
+
+section {
+	padding:60px;
+	width: auto;
+
+}
+
+
+header {
+	background-color: #B089BC;
+	height: 900px;
+	padding:5%;
+}
+
+h1 { color:#F1C200;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:90px;
+
+}
+
+h2 { color:#B089BC;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	text-align: center;
+
+	/*letter-spacing: ;*/
+}
+
+h3 {
+	text-align: center;
+	color: #8D8D8D;
+	font-size: 20px;
+	font-family: 'Avenir Next', sans-serif;
+	font-style: bold;
+	line-height: 60px;
+
+
+}
+
+h4 {
+	color: #8D8D8D;
+	font-size: 20px;
+	font-family: 'Avenir Next', sans-serif;
+	font-style: bold;
+	line-height: 40px;
+
+}
+
+
+
+/*img{
+	width:100%;
+	height:100%;
+}*/
+
+p {
+	font-family: 'Century Schoolbook ', serif;	
+	font-size: 18px;
+	color: #636363;
+
+}
+
+footer {
+	padding:5% 30% 10% 30%;
+	font-size: 10px;
+}
+
+
+
+/*classes*/
+
+
+.main{
+	font-family: 'Avenir Next', sans-serif;
+	letter-spacing: 12px;
+	font-size: 80px;
+	transform:translateY(10vh);
+}
+
+.name {
+	color: #FFFFFF;
+	/* text-align: center; */
+	font-family: 'Century Schoolbook ', serif;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	transform:translateY(8vh);
+}
+
+
+.learnmore{
+	color:#F65A5B;
+	font-size:18px;
+	text-decoration: none;
+	line-height: 50px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+.footer {
+		text-align: center;
+		font-family: 'Avenir Next', sans-serif;
+		font-size: 15px;
+	}
+
+
+
+
+
+
+/*ids*/
+
+#whatIdo div {
+	padding: 30px;
+	float: left;
+	width: 25%;
+}
+
+#discovery{
+	padding: 30px;
+	float: left;
+	width: 18%;
+}
+
+#analysis {
+	padding: 30px;
+	float: left;
+	width: 18%;
+
+}
+
+#design {
+	padding: 30px;
+	float: left;
+	width: 18%;
+
+}
+
+#devices{
+	/*position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;*/
+	height: auto;
+	width: auto;
+	padding: 10% 24% 0% 24%
+	
+
+
+}
+#whatIdo{
+	height:auto;
+	max-width: 1200px;
+	/* position:relative; */
+	border-bottom: 1px solid #eeeeee;
+	margin: auto;
+}
+
+#whatIdo li{ /* how can I make these li elements always be centered no matter the browser size?*/
+	display: inline-block;
+	padding-right: 4em;
+	padding-left: 7em; 
+
+}
+
+
+
+
+#nav{
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 18px;
+	list-style: none;
+	color:#204056;
+	margin: 10px;
+	padding-right: 5%;
+
+	
+
+
+	/*float: right;*/
+}
+
+#nav a {
+	text-decoration: none; 
+	color: #81BACF;
+
+}
+
+a:hover, a:active {
+	color: ;
+}
+
+
+#nav li{
+	display:inline-block;
+	padding-right: 3em;
+	float:right;
+	color: #81BACF;
+	font-family: 'Avenir Next', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size:16px;
+}
+
+#projects {
+	padding:0px;
+	max-width: 1200px;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+
+/*#home{
+	background-image:url(../images/posts.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh; -- this old stuff
+}
+
+#two_column {
+	padding: 60px 10px 10px 90px;
+	max-width: 1200px;
+} */
+
+#left {
+	/*padding-left: 60px;
+	padding-right: 60px;*/
+	float: left;
+	max-width: 30%;
+	margin: 50px;
+}
+
+#right {
+	float: right;
+	width:50%;
+}
+
+#caret {
+	height: auto;
+	width: auto;
+	margin-top: 20%;
+	/* margin-left:47%; */
+	margin-bottom: 0%;
+	/* margin-right:47%; */
+}
+
+#intro{
+	/* position: relative; */
+	height: 90%;
+	/* left: 0; */
+	/* top: 0; */
+	width: 100%;
+	/* z-index: 0; */
+	text-align: center;
+}
+
+#logo {
+	width:5%;
+
+	
+	
+}
+
+#navbar {
+	padding-top: 2%;
+	padding-right: 4%;
+	padding-left:4%;
+	background-color: white;
+}
+
+@media (max-width: 568px) {
+
+
+#nav li {
+	display:inline;
+	
+}
+
+
+
+
+
+
+
