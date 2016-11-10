@@ -292,6 +292,9 @@ a:hover, a:active {
 
 #logo {
 	width:5%;
+	position: absolute;
+	left:70px;
+	top:40px;
 
 	
 	
@@ -302,6 +305,7 @@ a:hover, a:active {
 	padding-right: 4%;
 	padding-left:4%;
 	background-color: white;
+
 }
 
 @media (max-width: 568px) {
