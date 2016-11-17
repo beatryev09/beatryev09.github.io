@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: 'New Century Schoolbook Regular';
-	src:url(../fonts/New%20Century%20Schoolbook%20Complete%20Family%20Pack/Linotype - NewCenturySchlbkLTStd-Roman.otf);
+	src:url(../fonts/NewCenturySchoolbook/NewCenturySchoolBookRoman.otf);
 	font-style:normal;
 	font-weight:normal;
 }
@@ -25,7 +25,10 @@
 
 
 body {
-	background-color:#FFFFFF;
+	font-family:'New Century Schoolbook Regular', cursive;
+	font-weight:normal;
+	font-style:normal;
+	font-size:18px;
 }
 
 nav { 
@@ -35,12 +38,9 @@ nav {
 
 
 }
-
-
 section {
 	padding:60px;
 	width: auto;
-
 }
 
 
@@ -50,7 +50,8 @@ header {
 	padding:5%;
 }
 
-h1 { color:#F1C200;
+h1 { 
+	color:#F1C200;
 	font-family: 'Avenir Next Demi Bold', sans-serif;
 	font-size:300px;
 	font-weight:normal;
@@ -58,7 +59,8 @@ h1 { color:#F1C200;
 
 }
 
-h2 {text-align: center;
+h2 {
+	text-align: center;
 	color: #8D8D8D;
 	font-size: 20px;
 	font-family: 'Avenir Next Demi Bold', sans-serif;
@@ -97,9 +99,6 @@ h4 {color: #81BACF;
 }*/
 
 p {
-	font-family: 'Century Schoolbook Regular ', serif;	
-	font-style: normal;
-	font-size: 18px;
 	color: #8D8A8A;
 	line-height: 34px;
 	text-align: left;
@@ -109,7 +108,7 @@ p {
 
 footer {
 	padding:5% 30%;
-	font-size: 10px;
+	font-size: .8em;
 	text-align: center;
 
 }
