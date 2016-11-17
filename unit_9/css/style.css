@@ -1,4 +1,5 @@
 
+
 @font-face {
 	font-family: 'Avenir Next Bold';
 	src:url(../fonts/Avenir%20Next/AvenirNextLTPro-Bold.otf);
@@ -31,12 +32,11 @@ body {
 	font-size:18px;
 }
 
-nav { 
-	background-color: #B089BC;
-	padding:20px 5%;
+nav {
+	/* background-color: #B089BC; */
+	/* padding:20px 5%; */
 	color:#FFFFFF;
-
-
+	float: right;
 }
 section {
 	padding:60px;
@@ -44,7 +44,7 @@ section {
 }
 
 
-header {
+#intro {
 	background-color: #B089BC;
 	height: 900px;
 	padding:5%;
@@ -262,13 +262,14 @@ footer {
 
 
 
-#nav{
-	font-family: 'Avenir Next Bold', sans-serif;
+nav{
+	font-family: 'Avenir Next Demi Bold', sans-serif;
 	font-size: 18px;
-	list-style: none;
 	color:#204056;
 	margin: 10px;
-	padding-right: 5%;
+	padding-right: 20%;
+	transform: translateY(-120%);
+	letter-spacing: .1em;
 
 	
 
@@ -276,27 +277,16 @@ footer {
 	/*float: right;*/
 }
 
-#nav a {
+nav a {
 	text-decoration: none; 
 	color: #81BACF;
-
-}
-
-#nav a: hover {
-	color: #FFD400; /*hover on nav not working;*/
-}
-
-
-#nav li{
 	display:inline-block;
-	padding-right: 3em;
-	float:right;
-	color: #81BACF;
-	font-family: 'Avenir Next Bold', sans-serif;
-	font-weight: normal;
-	font-style:normal;
-	letter-spacing: 3px;
-	font-size:16px;
+	padding:1em;
+
+}
+
+nav a:hover {
+	color: #FFD400; /*hover on nav not working;*/
 }
 
 #projects {
@@ -373,21 +363,20 @@ footer {
 }
 
 #logo {
-	width:5%;
-	position: absolute;
-	left:70px;
-	top:40px;
-	padding-left: 20px;
-	margin-left: 200px;
-
+	
+	float: left;
+	/* transform: translateY(50%); */
+	margin-top: 1em;
 }
 
 #navbar {
-	padding-top: 2%;
-	padding-right: 4%;
-	padding-left:4%;
-	background-color: white;
-
+	/* padding-top: 2%; */
+	/* padding-right: 4%; */
+	/* padding-left:4%; */
+	/* background-color: white; */
+	height: 4em;
+	width: 1200px;
+	margin: auto;
 }
 
 #strategy_icon {
