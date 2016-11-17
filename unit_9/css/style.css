@@ -1,16 +1,24 @@
 /*@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro);
 
  to pull the local fonts copy link from github after uploading and then font face rule from w3 schools. */
-/* 
-@font-face {
-    font-family: Benton Sans
-    src: url(beatryev09.github.io/unit_6/fonts/Benton Sans/); I don' think this is right
+ 
+/*@font-face {
+    font-family: 'Benton Sans';
+    src: url(../fonts/Benton%20Sans/); I don' think this is right
 }
 
 @font-face {
-    font-family: Benton Sans
+    font-family: 'Benton Sans';
     src: url(beatryev09.github.io/unit_6/fonts/New Century Schoolbook Complete Family Pack/);
 }*/
+
+@font-face {
+	font-family: 'Avenir Next Demi Bold';
+	src:url(../fonts/Avenir%20Next/AvenirNextLTPro-Bold.otf);
+	font-style:normal;
+	font-weight:normal;
+}
+
 * { margin:0; padding:0; box-sizing:border-box;}
 body {
 	background-color:#FFFFFF;
@@ -19,7 +27,7 @@ body {
 nav { 
 	background-color: #B089BC;
 	padding:20px 5%;
-	font-color:#FFFFFF;
+	color:#FFFFFF;
 
 
 }
@@ -56,7 +64,9 @@ h3 {
 	text-align: center;
 	color: #8D8D8D;
 	font-size: 20px;
-	font-family: 'Avenir Next Demi Bold', sans-serif;
+	font-family: 'Avenir Next Demi Bold', cursive;
+	font-weight:normal;
+	font-style:normal;
 	line-height: 60px;
 	letter-spacing: 4.44px;
 
@@ -66,8 +76,9 @@ h3 {
 h4 {
 	color: #8D8D8D;
 	font-size: 20px;
-	font-family: 'Avenir Next Demi Bold', sans-serif;
-	font-style: bold;
+	font-family: 'Avenir Next Demi Bold', cursive;
+	font-weight:normal;
+	font-style:normal;
 	line-height: 40px;
 	text-transform: Uppercase;
 	letter-spacing: 4.44px
