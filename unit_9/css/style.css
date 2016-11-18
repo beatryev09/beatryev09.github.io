@@ -53,7 +53,7 @@ section {
 h1 { 
 	color:#F1C200;
 	font-family: 'Avenir Next Demi Bold', sans-serif;
-	font-size:300px;
+	font-size:7em;
 	font-weight:normal;
 	font-style:normal;
 
@@ -62,7 +62,7 @@ h1 {
 h2 {
 	text-align: center;
 	color: #8D8D8D;
-	font-size: 20px;
+	font-size: 1.11em;
 	font-family: 'Avenir Next Demi Bold', sans-serif;
 	font-weight:normal;
 	font-style:normal;
@@ -71,7 +71,7 @@ h2 {
 }
 
 h3 {color: #8D8D8D;
-	font-size: 20px;
+	font-size: 1.11em;
 	font-family: 'Avenir Next Demi Bold', cursive;
 	font-weight:normal;
 	font-style:normal;
@@ -85,7 +85,7 @@ h3 {color: #8D8D8D;
 
 h4 {color: #81BACF;
 	text-align: center;
-	font-size: 30px;
+	font-size: 1.66em;
 	letter-spacing: 1.5px;
 	font-family: 'Avenir Next Demi Bold', sans-serif;
 	
@@ -122,8 +122,8 @@ footer {
 	font-weight:normal;
 	font-style:normal;
 	letter-spacing: 12px;
-	font-size: 80px;
-	transform:translateY(10vh);
+	font-size: 5em;
+	transform:translateY(7vh);
 }
 
 .name {
@@ -133,14 +133,14 @@ footer {
 	font-weight: normal;
 	font-style: normal;
 	letter-spacing: 1px;
-	transform:translateY(8vh);
+	transform:translateY(5vh);
 	text-align: center;
 }
 
 
 .learnmore{
 	color:#F65A5B;
-	font-size:18px;
+	font-size:1em;
 	text-decoration: none;
 	line-height: 50px;
 }
@@ -194,8 +194,8 @@ footer {
 }
 .mail-icon {
 	padding-bottom: 40px;
+	}
 
-}
 
 .Taketwo{
 	width: 249px;
@@ -265,10 +265,7 @@ footer {
 nav{
 	font-family: 'Avenir Next Demi Bold', sans-serif;
 	font-size: 18px;
-	color:#204056;
-	margin: 10px;
-	padding-right: 20%;
-	transform: translateY(-120%);
+	margin: 1em;
 	letter-spacing: .1em;
 
 	
@@ -340,13 +337,13 @@ nav a:hover {
 #right_two {
 	float: right;
 	width:30%;
-	margin: 50px;
+	
 }
 
 #caret {
 	height: auto;
 	width: auto;
-	margin-top: 20%;
+	margin-top: 8%;
 	/* margin-left:47%; */
 	margin-bottom: 0%;
 	/* margin-right:47%; */
@@ -354,7 +351,6 @@ nav a:hover {
 
 #intro{
 	/* position: relative; */
-	height: 90%;
 	/* left: 0; */
 	/* top: 0; */
 	width: 100%;
@@ -366,7 +362,7 @@ nav a:hover {
 	
 	float: left;
 	/* transform: translateY(50%); */
-	margin-top: 1em;
+	margin: 1.5em;
 }
 
 #navbar {
@@ -375,7 +371,7 @@ nav a:hover {
 	/* padding-left:4%; */
 	/* background-color: white; */
 	height: 4em;
-	width: 1200px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -385,9 +381,139 @@ nav a:hover {
 }
 
 
+/* @media only screen and (max-width: 1239px) {
+    #logo {
+        margin-left: 5em;
+    }
+}*/
+
+@media only screen and (max-width: 1183px) {
+    #projects {
+        margin: 1em;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+
+    #whatIdo {
+    	margin:1em;
+    }
+
+}
+
+
+@media only screen and (max-width: 930px) {
+
+
+   /* #whatIdo div {
+    	width: 100%;
+    }*/
+
+    .main {
+    	font-size: 5em;
+    }
+
+    #caret {
+    	margin-top: 20%
+
+    }
+
+    #devices{
+    	width:100%;
+    	padding:0;
+    }
+
+    #logo {
+    	width: 8%;
+    	
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 790px) {
+
+
+   #whatIdo div {
+    	width: 100%;
+    }
+
+    #right_mobile{
+    	width:60%;
+    	margin-right:20%;
+    }
+
+    #left{ 
+    	max-width: 100%;
+
+    }
+
+    #right {
+    	width:100%;
+    }
+
+    #left_two {
+    	max-width:100%;
+    }
+
+    #right_two {
+    	width:100%;
+    	float:none;
+  
+    }
+
+    #logo {
+    	width: 8%;
+    }
+
+
+@media only screen and (max-width: 690px) {
 
 
 
+    #logo {
+    	width: 8%;
+    }
+
+@media only screen and (max-width: 580px) and (min-width: 300px) {
 
 
 
+    #logo {
+    	width: 10%;
+    	margin-top: 2em;
+    }
+
+    .main {
+    	font-size:4em;
+    	margin-top: 0.5em;
+    }
+
+  #caret {
+  	margin-top: 8em;
+
+    }
+
+    nav a {
+    	width: 100%;
+    	text-align: center;
+    }
+
+    #intro {
+    	height:700px;
+    	margin-top:300px;
+    }
+
+    #logo {
+    	width: 13%;
+    	margin-left:12.5em;
+    	float: none;
+
+    }
+
+    nav{
+    	float: none;
+    	margin: 0;
+
+    }
