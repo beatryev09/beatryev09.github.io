@@ -238,7 +238,7 @@ footer {
     bottom: 0;*/
 	height: auto;
 	width: auto;
-	padding: 10% 24% 0% 24%
+	
 	
 
 
@@ -507,7 +507,7 @@ nav a:hover {
 
     #logo {
     	width: 13%;
-    	margin-left:12.5em;
+    	margin-left:10em;
     	float: none;
 
     }
@@ -517,3 +517,14 @@ nav a:hover {
     	margin: 0;
 
     }
+
+    .main {
+    	font-size:3em;
+
+    }
+
+    #caret {
+    	width: 15%;
+    }
+
+   
