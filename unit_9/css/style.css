@@ -1,41 +1,36 @@
-
-
 @font-face {
 	font-family: 'Avenir Next Bold';
 	src:url(../fonts/Avenir%20Next/AvenirNextLTPro-Bold.otf);
 	font-style:normal;
 	font-weight:normal;
 }
-
-
 @font-face {
 	font-family: 'Avenir Next Demi Bold';
 	src:url(../fonts/Avenir%20Next/AvenirNextLTPro-Demi.otf);
 	font-style:normal;
 	font-weight:normal;
 }
-
 @font-face {
 	font-family: 'New Century Schoolbook Regular';
 	src:url(../fonts/NewCenturySchoolbook/NewCenturySchoolBookRoman.otf);
 	font-style:normal;
 	font-weight:normal;
 }
-
 * { margin:0; padding:0; box-sizing:border-box;}
 
 
 body {
-	font-family:'New Century Schoolbook Regular', cursive;
+	color:#8D8A8A;
+	font-family:'New Century Schoolbook Regular', serif;
 	font-weight:normal;
 	font-style:normal;
 	font-size:18px;
+	line-height:1.25;
 }
 
 nav {
 	/* background-color: #B089BC; */
 	/* padding:20px 5%; */
-	color:#FFFFFF;
 	float: right;
 }
 section {
@@ -49,46 +44,30 @@ section {
 	height: 900px;
 	padding:5%;
 }
-
-h1 { 
-	color:#F1C200;
-	font-family: 'Avenir Next Demi Bold', sans-serif;
-	font-size:7em;
-	font-weight:normal;
-	font-style:normal;
-
-}
-
-h2 {
-	text-align: center;
-	color: #8D8D8D;
-	font-size: 1.11em;
-	font-family: 'Avenir Next Demi Bold', sans-serif;
-	font-weight:normal;
-	font-style:normal;
-	line-height: 60px;
-	letter-spacing: 4.44px;
-}
-
-h3 {color: #8D8D8D;
-	font-size: 1.11em;
+h1, h2, h3, h4 {
 	font-family: 'Avenir Next Demi Bold', cursive;
 	font-weight:normal;
 	font-style:normal;
+}
+h1 { 
+	color:#F1C200;
+	font-size:7em;
+}
+h2, h3 {
+	font-size: 1.11em;
 	line-height: 40px;
 	text-transform: Uppercase;
 	letter-spacing: 4.44px
-	
-
-
 }
-
-h4 {color: #81BACF;
+h2 {
+	text-align: center;
+	line-height: 60px;
+}
+h4 {
+	color: #81BACF;
 	text-align: center;
 	font-size: 1.66em;
 	letter-spacing: 1.5px;
-	font-family: 'Avenir Next Demi Bold', sans-serif;
-	
 }
 
 
@@ -97,14 +76,6 @@ h4 {color: #81BACF;
 	width:100%;
 	height:100%;
 }*/
-
-p {
-	color: #8D8A8A;
-	line-height: 34px;
-	text-align: left;
-
-
-}
 
 footer {
 	padding:5% 30%;
@@ -365,16 +336,6 @@ nav a:hover {
 	margin: 1.5em;
 }
 
-#navbar {
-	/* padding-top: 2%; */
-	/* padding-right: 4%; */
-	/* padding-left:4%; */
-	/* background-color: white; */
-	height: 4em;
-	width: 100%;
-	margin: auto;
-}
-
 #strategy_icon {
 	padding: 20px;
 
@@ -386,7 +347,11 @@ nav a:hover {
         margin-left: 5em;
     }
 }*/
-
+@media only screen and (min-width:1921px) {
+	#splash {
+		background:url(../images/);
+	}
+}
 @media only screen and (max-width: 1183px) {
     #projects {
         margin: 1em;
@@ -466,20 +431,14 @@ nav a:hover {
     #logo {
     	width: 8%;
     }
-
+}
 
 @media only screen and (max-width: 690px) {
-
-
-
     #logo {
     	width: 8%;
     }
-
-@media only screen and (max-width: 580px) and (min-width: 300px) {
-
-
-
+}
+@media only screen and (max-width: 580px) {
     #logo {
     	width: 10%;
     	margin-top: 2em;
@@ -501,8 +460,8 @@ nav a:hover {
     }
 
     #intro {
-    	height:700px;
-    	margin-top:300px;
+    	height:initial;
+	padding:10em 0;
     }
 
     #logo {
@@ -526,5 +485,5 @@ nav a:hover {
     #caret {
     	width: 15%;
     }
-
+}
    
